@@ -15,16 +15,6 @@ This project demonstrates core DevOps concepts including:
 
 ## Getting Started
 
-### Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
-- [Kubernetes](https://kubernetes.io/) or [Minikube](https://minikube.sigs.k8s.io/)
-- [Terraform](https://www.terraform.io/) (for IaC)
-- [Ansible](https://www.ansible.com/) or similar tool (for configuration management)
-- [Python](https://www.python.org/) or [Bash](https://www.gnu.org/software/bash/) (for scripting)
-- Cloud provider CLI (e.g., AWS CLI, Azure CLI, or GCP CLI), if deploying to the cloud
-
 ### Setup
 
 1. **Clone this repository:**
@@ -86,7 +76,7 @@ This document demonstrates setting up a GitHub account using the web management 
 5. Choose your plan (you can start with the free plan).
 
 **Screenshot Example:**  
-[![GitHub Sign Up Page](images/github-signup.png)](images/github-signup.png)
+[![GitHub Sign Up Page](images/github-signup.png)](images/github.png)
 
 ---
 
@@ -114,7 +104,7 @@ git config --list
 ```
 
 **Screenshot Example:**  
-[![Git Config in Ubuntu Terminal](images/git-config-ubuntu.png)](images/git-config-ubuntu.png)
+[![Git Config in Ubuntu Terminal](images/git-config-ubuntu.png)](images/github-terminal.png)
 
 ### c. Generate SSH Key (Recommended)
 
@@ -135,7 +125,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 **Screenshot Example:**  
-[![SSH Key Generation in Ubuntu](images/ssh-keygen-ubuntu.png)](images/ssh-keygen-ubuntu.png)
+[![SSH Key Generation in Ubuntu](images/ssh-keygen-ubuntu.png)](images/ssh-keygen.png)
 
 ### d. Add SSH Key to GitHub
 
