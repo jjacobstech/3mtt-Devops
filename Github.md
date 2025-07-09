@@ -104,7 +104,7 @@ git config --list
 ```
 
 **Screenshot Example:**  
-[![Git Config in Ubuntu Terminal](images/git-terminal.png)](images/github-terminal.png)
+[![Git Config in Ubuntu Terminal](images/github-terminal.png)](images/github-terminal.png)
 
 ### c. Generate SSH Key (Recommended)
 
