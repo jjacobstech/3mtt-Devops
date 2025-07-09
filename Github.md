@@ -76,7 +76,7 @@ This document demonstrates setting up a GitHub account using the web management 
 5. Choose your plan (you can start with the free plan).
 
 **Screenshot Example:**  
-[![GitHub Sign Up Page](images/github-signup.png)](images/github.png)
+[![GitHub Sign Up Page](images/github.png)](images/github.png)
 
 ---
 
@@ -104,7 +104,7 @@ git config --list
 ```
 
 **Screenshot Example:**  
-[![Git Config in Ubuntu Terminal](images/git-config-ubuntu.png)](images/github-terminal.png)
+[![Git Config in Ubuntu Terminal](images/git-terminal.png)](images/github-terminal.png)
 
 ### c. Generate SSH Key (Recommended)
 
@@ -125,7 +125,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 **Screenshot Example:**  
-[![SSH Key Generation in Ubuntu](images/ssh-keygen-ubuntu.png)](images/ssh-keygen.png)
+[![SSH Key Generation in Ubuntu](images/ssh.png)](images/ssh.png)
 
 ### d. Add SSH Key to GitHub
 
@@ -134,7 +134,7 @@ cat ~/.ssh/id_ed25519.pub
 3. Click **New SSH key**, paste your public key, and save.
 
 **Screenshot Example:**  
-[![Add SSH Key to GitHub](images/add-sshkey-github.png)](images/add-sshkey-github.png)
+[![Add SSH Key to GitHub](images/ssh.png)](images/ssh.png)
 
 ---
 
@@ -144,14 +144,5 @@ cat ~/.ssh/id_ed25519.pub
 git clone git@github.com:yourusername/your-repo.git
 cd your-repo
 ```
-
----
-
-## Artifacts
-
-- [`images/github-signup.png`](images/github-signup.png): Screenshot of GitHub sign-up page.
-- [`images/git-config-ubuntu.png`](images/git-config-ubuntu.png): Terminal showing Git configuration.
-- [`images/ssh-keygen-ubuntu.png`](images/ssh-keygen-ubuntu.png): Terminal showing SSH key generation.
-- [`images/add-sshkey-github.png`](images/add-sshkey-github.png): Screenshot of adding SSH key on GitHub.
 
 ---
