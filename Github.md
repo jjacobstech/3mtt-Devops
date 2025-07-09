@@ -142,7 +142,7 @@ sudo apt install code
 
 ### Visual Evidence
 **Screenshot: Visual Studio Code Welcome Screen**
-![VS Code Welcome Screen](images/vscode-welcome.png)
+![VS Code Welcome Screen](images/vscode.png)
 
 *The screenshot shows the Visual Studio Code welcome screen with the "Get Started" tab open, displaying recent folders, help resources, and the VS Code interface elements, confirming successful installation.*
 
@@ -180,7 +180,7 @@ git --version
 
 ### Visual Evidence
 **Screenshot: Terminal Output of `git --version`**
-![Git Version Output](images/git-version-terminal.png)
+![Git Version Output](images/github-terminal.png)
 
 *The screenshot shows the terminal output displaying the Git version information (e.g., "git version 2.34.1"), confirming successful Git installation.*
 
@@ -238,7 +238,7 @@ GitHub provides cloud-based Git repository hosting, collaboration tools, and CI/
 
 ### Visual Evidence
 **Screenshot: GitHub Dashboard**
-![GitHub Dashboard](images/github-dashboard.png)
+![GitHub Dashboard](images/github.png)
 
 *The screenshot shows the GitHub dashboard with the user's profile, repositories list, activity feed, and navigation menu, confirming successful account creation and setup.*
 
@@ -301,7 +301,7 @@ Amazon Web Services provides cloud infrastructure services essential for DevOps 
 
 ### Visual Evidence
 **Screenshot: AWS Management Console**
-![AWS Management Console](images/aws-console.png)
+![AWS Management Console](images/aws.png)
 
 *The screenshot displays the AWS Management Console homepage with the service dashboard, recently used services, and account information, confirming successful AWS account setup.*
 
