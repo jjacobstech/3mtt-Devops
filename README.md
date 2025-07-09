@@ -69,10 +69,99 @@ Contributions are welcome! Please open issues and submit pull requests for impro
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
-## License
+# GitHub Account Setup: Web Console and Ubuntu (VirtualBox)
 
-This project is licensed under the MIT License.
+This document demonstrates setting up a GitHub account using the web management console and configuring it on Ubuntu running inside VirtualBox.
 
 ---
 
-*Happy DevOps-ing! 🚀*
+## 1. GitHub Account Setup via Web Management Console
+
+### a. Sign Up for a GitHub Account
+
+1. Go to [https://github.com/](https://github.com/).
+2. Click **Sign up**.
+3. Fill in your email address, create a password, and set your username.
+4. Complete the verification steps.
+5. Choose your plan (you can start with the free plan).
+
+**Screenshot Example:**  
+[![GitHub Sign Up Page](images/github-signup.png)](images/github-signup.png)
+
+---
+
+## 2. GitHub Configuration on Ubuntu (VirtualBox)
+
+### a. Install Git
+
+Open your Ubuntu terminal and run:
+```bash
+sudo apt update
+sudo apt install git
+```
+
+### b. Configure Git with Your GitHub Account
+
+Replace your details below:
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+To confirm your configuration:
+```bash
+git config --list
+```
+
+**Screenshot Example:**  
+[![Git Config in Ubuntu Terminal](images/git-config-ubuntu.png)](images/git-config-ubuntu.png)
+
+### c. Generate SSH Key (Recommended)
+
+```bash
+ssh-keygen -t ed25519 -C "your.email@example.com"
+# Press enter to accept defaults
+```
+
+Add your SSH key to the SSH agent:
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+Copy your public SSH key:
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+**Screenshot Example:**  
+[![SSH Key Generation in Ubuntu](images/ssh-keygen-ubuntu.png)](images/ssh-keygen-ubuntu.png)
+
+### d. Add SSH Key to GitHub
+
+1. Go to your GitHub account.
+2. Click on your profile picture → **Settings** → **SSH and GPG keys**.
+3. Click **New SSH key**, paste your public key, and save.
+
+**Screenshot Example:**  
+[![Add SSH Key to GitHub](images/add-sshkey-github.png)](images/add-sshkey-github.png)
+
+---
+
+## 3. Clone a Repository to Ubuntu
+
+```bash
+git clone git@github.com:yourusername/your-repo.git
+cd your-repo
+```
+
+---
+
+## Artifacts
+
+- [`images/github-signup.png`](images/github-signup.png): Screenshot of GitHub sign-up page.
+- [`images/git-config-ubuntu.png`](images/git-config-ubuntu.png): Terminal showing Git configuration.
+- [`images/ssh-keygen-ubuntu.png`](images/ssh-keygen-ubuntu.png): Terminal showing SSH key generation.
+- [`images/add-sshkey-github.png`](images/add-sshkey-github.png): Screenshot of adding SSH key on GitHub.
+
+---
