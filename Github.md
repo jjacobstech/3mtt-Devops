@@ -59,6 +59,36 @@ Contributions are welcome! Please open issues and submit pull requests for impro
 4. Push to the branch (`git push origin feature/my-feature`)
 5. Open a Pull Request
 
+   
+
+# VS Code Installation & GitHub Setup on Ubuntu (VirtualBox)
+
+This guide walks you through installing **Visual Studio Code (VS Code)** on Ubuntu running inside **VirtualBox**, and preparing it for GitHub integration.
+
+---
+
+## 1. Install VS Code on Ubuntu
+
+### a. Update Your System
+
+Open your terminal and run:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+Or using snap
+```bash
+sudo snap install code --classic
+
+```
+Then run:
+```bash
+code
+```
+**Screenshot Example:**  
+[![VsCode startup page ](images/vscode.png)](images/vscode.png)
+
+
 # GitHub Account Setup: Web Console and Ubuntu (VirtualBox)
 
 This document demonstrates setting up a GitHub account using the web management console and configuring it on Ubuntu running inside VirtualBox.
