@@ -16,7 +16,7 @@
 
 **Personal Implementation Details:**
 - **My Installation**: Visual Studio Code version 1.92.0 installed on Windows 11
-- **My Workspace**: Created personal workspace folder `C:\Dev\[YourName]-Projects`
+- **My Workspace**: Created personal workspace folder `C:\Dev\jjacobstech-Projects`
 - **My Extensions**: Installed GitLens, Python, and Live Server extensions
 - **Personal Touch**: Changed theme to "Dark+ (default dark)" and set custom font to Fira Code
 
@@ -34,12 +34,12 @@
 $ git --version
 git version 2.42.0.windows.2
 
-$ git config --global user.name "[Your Actual Name]"
-$ git config --global user.email "[your.actual.email@domain.com]"
+$ git config --global user.name "jjacobstech"
+$ git config --global user.email "jacobsjoshua81@gmail.com"
 
 $ git config --global --list
-user.name=[Your Actual Name]
-user.email=[your.actual.email@domain.com]
+user.name=jjacobstech
+user.email=jacobsjoshua81@gmail.com
 core.autocrlf=true
 init.defaultbranch=main
 ```
